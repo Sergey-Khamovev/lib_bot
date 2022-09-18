@@ -24,7 +24,6 @@ def get_info():
 def handle_text(message):
     if (message.text == "df"):
         bot.send_message(message.chat.id, get_info())
-
 """
 # Запускаем бота
 bot.polling(none_stop=True, interval=0)
